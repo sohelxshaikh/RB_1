@@ -62,4 +62,3 @@ const CardPinnnedIcon = ({ children }: { children: React.ReactNode }) => {
   );
 };
 export default FeatureSection;
-};

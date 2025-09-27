@@ -1,6 +1,14 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"],
+      "src/helpers/*": ["src/helpers/*"],
+      "src/modules/*": ["src/modules/*"],
+      "src/stores/*": ["src/stores/*"],
+      "src/styles/*": ["src/styles/*"],
+      "src/templates/*": ["src/templates/*"]
+    },
     "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
